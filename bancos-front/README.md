@@ -1,29 +1,37 @@
 # bancos-front
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é o front-end de uma aplicação para gerenciamento de bancos.
 
-## Recommended IDE Setup
+## Como executar o projeto
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. Certifique-se de ter o Node.js instalado na sua máquina.
 
-## Customize configuration
+2. Clone este repositório:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+```bash
+git clone https://github.com/seu-usuario/bancos-front.git
+```
 
-## Project Setup
+1. Navegue até o diretório do projeto:
+```bash
+cd bancos-front
+```
 
-```sh
+2. Instale as dependências:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+3. Inicie o servidor de desenvolvimento:
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+`O projeto estará disponível em http://localhost:5173.`
 
-```sh
-npm run build
-```
+### Endpoints disponíveis
+GET /: Página inicial.
+
+GET /bancos: Lista todos os bancos.
+
+GET /bancos/:id: Mostra informações sobre um banco específico.
