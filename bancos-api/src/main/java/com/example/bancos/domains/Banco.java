@@ -5,6 +5,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.*;
 
+// Entidade do banco
 @Entity(name="bancos")
 @Table(name="bancos")
 @Getter
