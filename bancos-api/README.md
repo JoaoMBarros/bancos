@@ -1,6 +1,6 @@
 # Spring Boot API Bancos
 
-Esta é uma API desenvolvida em Spring Boot para gerenciamento de bancos.
+Esta é uma API desenvolvida em Spring Boot para listagem de bancos.
 
 ## Como executar o projeto
 
